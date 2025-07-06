@@ -65,11 +65,17 @@ table td {
   text-align: center;
 }
 
-#bandeira{
+#foto-pais{
   display: block;
   margin: 1rem auto;
   border-radius: 0px;
   border: 1px solid #b4b4b4;
+  transition: 0.3s;
+}
+
+#foto-pais:hover{
+transform: scale(1.4);
+
 }
 
 #link-site:hover{
